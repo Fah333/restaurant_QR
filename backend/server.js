@@ -6,6 +6,12 @@ require("dotenv").config();
 const { assertDb } = require("./DB/db");
 const routes = require("./routes/index");
 
+import cors from "cors";
+
+app.use(cors({
+  origin: "https://restaurant-qr-qskx.vercel.app" // หรือ "*" ถ้าอนุญาตทุกที่
+}));
+
 const app = express();
 
 // CORS
