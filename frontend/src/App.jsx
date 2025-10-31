@@ -30,14 +30,14 @@ import "./App.css";
 ================================ */
 const HEROES = [
   {
-    img: "/images/p1.png",
+    img: "/assets/p1.png",
     title: "หอมกระทะ กลมกล่อมทุกคำ!\nผัดซีอิ๊วสูตรเด็ด เส้นใหญ่เหนียวนุ่ม",
     price: "50 บาท",
     alt: "ผัดซีอิ๊วสูตรเด็ด",
   },
 
   {
-    img: "/images/a2.png",
+    img: "/assets/a2.png",
     title: "เกี๊ยวซ่าหมู\nกรอบนอก นุ่มใน ไส้หมูชุ่มฉ่ำ",
     price: "50 บาท",
     alt: "เกี๊ยวซ่าหมู",
@@ -45,10 +45,10 @@ const HEROES = [
 ];
 
 const PROMOS = [
-  { id: 1, name: "ข้าวคลุกน้ำพริกปลาทู", price: "50 บาท", img: "/images/p5.png" },
-  { id: 2, name: "ข้าวปลาแกะ", price: "50 บาท", img: "/images/p4.png" },
-  { id: 3, name: "ข้าวกุ้งผัดพริกขี้หนูสวน", price: "50 บาท", img: "/images/p3.png" },
-  { id: 4, name: "หมี่ไก่ฉีก", price: "50 บาท", img: "/images/p2.png" },
+  { id: 1, name: "ข้าวคลุกน้ำพริกปลาทู", price: "50 บาท", img: "/assets/p5.png" },
+  { id: 2, name: "ข้าวปลาแกะ", price: "50 บาท", img: "/assets/p4.png" },
+  { id: 3, name: "ข้าวกุ้งผัดพริกขี้หนูสวน", price: "50 บาท", img: "/assets/p3.png" },
+  { id: 4, name: "หมี่ไก่ฉีก", price: "50 บาท", img: "/assets/p2.png" },
 ];
 
 /* ================================
